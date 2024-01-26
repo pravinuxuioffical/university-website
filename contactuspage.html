@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy learn</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0ab28401b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- 1.Home section (header,websitecontent)-->
+      <!-- header -->
+      <section class="header-contactus">
+          <nav>
+            <a href="index.html"><img src="image/logo.png" width="150px" alt="logo section"></a>
+            <div class="nav-link" id="navlink" >
+                <i class="fa-solid fa-xmark" onclick="hideicon()"></i>
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="Aboutpage.html">About</a></li>
+                    <li><a href="coursepage.html">course</a></li>
+                    <li><a href="certificate.html">Certificate</a></li>
+                    <li><a href="contactuspage.html">Contact us</a></li>
+                    
+                </ul>
+             </div>
+             <i class="fa-solid fa-bars" onclick="showicon()"></i>          
+             </nav>
+          <h1>contact us</h1>   
+
+       <!--  javascript toggle functionality -->   
+       <script>
+        var navlink=document.getElementById("navlink");
+        function showicon(){
+            navlink.style.right="0px";
+        }
+        function hideicon(){
+            navlink.style.right="-200px";
+        }
+       </script>  
+      </section>
+
+<!-- 2.location section (header,websitecontent)--> 
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62672.25476310786!2d79.32686688422251!3d10.962169534565524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5532b360353419%3A0x9ecb5d94413ad35!2sKumbakonam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1704315032873!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section> 
+  
+  <section class="contact-us">
+    <div class="rowsection">
+      <div class="contact-col">
+        <div>
+          <i class="fa-solid fa-house"></i>
+          <span>
+              <h5>4095,Chakra nagar</h5>
+              <p>kumbakonam,Tamilnadu,India</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <span>
+              <h5>+91 7598648359</h5>
+              <p>Monday-friday 9.00AM TO 6.00PM</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <span>
+              <h5>pkdesigner@gmail.com</h5>
+              <p>kumbakonam,Tamilnadu</p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+        <form action="">
+          <input type="text" placeholder="Enter the name" required>
+          <input type="email" placeholder="Enter the emailid" required>
+          <input type="text" placeholder="Enter the name" required>
+
+          <textarea rows="8" placeholder="your comments" required>message</textarea>
+          <button class="Hero-cta Red-cta">Send message</button>
+
+
+
+        </form>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </section>
+      
+
+
+
+
+
+<!-- 6.contact section (rowsection,campus column)-->
+<section class="contact">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia pariatur officia veritatis! Soluta, architecto voluptatem beatae nesciunt perferendis earum aspernatur maiores quibusdam. Quis quasi deleniti, nisi ducimus voluptas velit!</p>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-square-facebook"></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <p>Made with love by pravinkumar</p>
+</section>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
